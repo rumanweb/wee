@@ -1,0 +1,81 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+#admin-box {
+    width: 50%;
+    text-align: center;
+    margin: 150px auto;
+    transition: ease-in-out 0.5s;
+    border-radius: 15px;
+    
+    
+}
+
+#admin-box h1 {
+    width: 100%;
+    margin: 1px auto;
+    font-size: 50px;
+    color: white;
+}
+
+#admin-box img {
+     width: 50px;
+}
+
+body {
+    background-color: black;
+    background-position: center;
+    
+    
+}
+
+ ::placeholder {
+    color:black;
+    width: 100%;
+    background-color: white;
+    
+ }
+
+ input {
+    border: 2px solid;
+    padding:10px 10px 10px 10px ;
+    font-size: 15px;
+
+ }
+ p {
+    font-size: 20px;
+    
+    
+
+ }
+
+ input:hover {
+    background-color: black;
+    color: yellow;
+    cursor: pointer;
+    transition:ease 0.5s;
+    
+ }
+
+ button {
+    
+    width: 20%;
+    padding: 15px;
+ }
+
+ #admin-box:hover {
+    box-shadow: 3px 3px 3px 5px;
+    color: aliceblue;
+ }
+ #sss {
+   color: whitesmoke;
+ }
+
+ #new {
+   color: whitesmoke;
+ }
